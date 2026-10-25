@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Literacy through Language — Dissecting Medical Language</title>
+  <meta name="description" content="A health-outreach non-profit teaching people to decode medical terminology through its classical Greek and Latin roots.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ NAV (same on every page) ============ -->
+  <nav class="nav">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="mark">Rx</span>
+        <span>Medical Literacy through Language</span>
+      </a>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="who.html">Who</a>
+        <a href="what.html">What</a>
+        <a href="why.html">Why</a>
+        <a href="flashcards.html">Flashcards &amp; Game</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="container">
+      <div class="eyebrow">Health Outreach · Rooted in the Classics</div>
+      <h1>Take medical words apart,<br>one root at a time.</h1>
+      <p class="lead">
+        Long medical terms aren't memorized — they're <span class="word">dissected</span>.
+        We teach people to break complex terminology into its ancient Greek and Latin
+        building blocks, so a word like <i>tachycardia</i> becomes simply
+        <b>tachy-</b> (fast) + <b>cardi/o</b> (heart).
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="flashcards.html">Try the flashcards</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="rule" aria-hidden="true" style="margin-top:10px;"><span>❦ ❦ ❦</span></div>
+
+  <!-- ============ THREE PILLARS ============ -->
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <a class="card card-photo bg-who" href="who.html" style="color:inherit">
+          <div class="kicker">Quis — Who</div>
+          <h3>Who we are</h3>
+          <p class="muted">The people, mission, and story behind the initiative. <span style="color:var(--accent)">Read more →</span></p>
+        </a>
+        <a class="card card-photo bg-what" href="what.html" style="color:inherit">
+          <div class="kicker">Quid — What</div>
+          <h3>What we do</h3>
+          <p class="muted">Workshops, brochures, and our root-dissection method. <span style="color:var(--accent)">Read more →</span></p>
+        </a>
+        <a class="card card-photo bg-why" href="why.html" style="color:inherit">
+          <div class="kicker">Cur — Why</div>
+          <h3>Why it matters</h3>
+          <p class="muted">Health literacy, equity, and the ESL community. <span style="color:var(--accent)">Read more →</span></p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MISSION STRIP (editable) ============ -->
+  <section style="background:var(--marble-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="container" style="text-align:center; max-width:760px;">
+      <p class="pullquote" style="border:none; padding:0; text-align:center;">
+        “We believe that language is power. When patients understand the words their
+        doctors use, they become active participants in their own care. Clear
+        communication is a matter of health equity, not just convenience, and everyone
+        has a role to play in closing this gap.”
+      </p>
+    </div>
+  </section>
+
+  <div class="rule" aria-hidden="true" style="margin-top:48px;"><span>❦ ❦ ❦</span></div>
+
+  <!-- ============ FOOTER (same on every page) ============ -->
+  <footer>
+    <div class="container">
+      <div>
+        <div class="brand"><span class="mark">Rx</span> Medical Literacy through Language</div>
+        <small>A non-profit health-literacy initiative.</small>
+      </div>
+      <div>
+        <small>
+          Any questions? Contact us!<br>
+          <a href="mailto:mll4all@gmail.com">mll4all@gmail.com</a><br>
+          © <span id="year"></span> Medical Literacy through Language
+        </small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>

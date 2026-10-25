@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What We Do — Medical Literacy through Language</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="mark">Rx</span><span>Medical Literacy through Language</span></a>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="who.html">Who</a>
+        <a href="what.html" class="active">What</a>
+        <a href="why.html">Why</a>
+        <a href="flashcards.html">Flashcards &amp; Game</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-head">
+    <div class="container">
+      <div class="eyebrow">Quid — What</div>
+      <h1>What We Do</h1>
+    </div>
+  </div>
+
+  <div class="rule" aria-hidden="true"><span>❦ ❦ ❦</span></div>
+
+  <section>
+    <div class="container" style="max-width:820px;">
+
+      <h2>The method: dissect, don't memorize</h2>
+      <p>
+        Our root-scaffolding method encourages memorization of the basic building blocks
+        of medical terminology rather than full-on words. Medical terms are made of
+        predictable parts — a prefix, a root, and a suffix — and once you know the parts,
+        you can decode words you've never seen before.
+      </p>
+
+      <!-- Worked examples -->
+      <div class="grid grid-2">
+        <div class="card" style="background:var(--marble-2);">
+          <p class="kicker">A worked example</p>
+          <h3 style="margin-top:4px;">nephritis</h3>
+          <p style="font-size:1.1rem;">
+            <b style="color:var(--accent)">nephr/o</b> (kidney) +
+            <b style="color:var(--accent)">-itis</b> (inflammation)
+            &nbsp;=&nbsp; <i>inflammation of the kidney.</i>
+          </p>
+        </div>
+        <div class="card" style="background:var(--marble-2);">
+          <p class="kicker">A longer one</p>
+          <h3 style="margin-top:4px;">lymphadenopathy</h3>
+          <p style="font-size:1.1rem;">
+            <b style="color:var(--accent)">lymph/o</b> (lymph) +
+            <b style="color:var(--accent)">aden/o</b> (gland) +
+            <b style="color:var(--accent)">-pathy</b> (disease)
+            &nbsp;=&nbsp; <i>disease of the lymph glands.</i>
+          </p>
+        </div>
+      </div>
+
+      <h2>Our programs</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Community Workshops</h3>
+          <p>We partner with community organizations such as libraries, schools, and
+            healthcare organizations to provide workshops that promote public education on
+            understanding medical terminology. Volunteers show patients, community health
+            workers, and students how to use our Medical Decoder Guide.</p>
+        </div>
+        <div class="card">
+          <h3>Learning Resources</h3>
+          <p>We are developing a comprehensive online resource hub on our website, which
+            will make understanding health literacy more accessible to a wider audience. We
+            currently have our <a href="https://drive.google.com/file/d/1Q5f4S8SQsngz_IT-kLq8eOkSl0xGSxTe/view?usp=sharing"
+              target="_blank" rel="noopener noreferrer">Medical Decoder Guide</a> and various digital resources, which
+            are constantly adapting as we adjust our curriculum.</p>
+        </div>
+        <div class="card">
+          <h3>Flashcards &amp; Games</h3>
+          <p>Our interactive, digital version of the Medical Decoder Guide. Flip through
+            root cards at your own pace, then test yourself in quiz mode — filtered by
+            prefix, suffix, or root. Active recall through play is consistently shown to
+            beat passive rereading for long-term memory.</p>
+          <p style="margin-bottom:0;"><a href="flashcards.html">Try it now →</a></p>
+        </div>
+      </div>
+
+      <h2>What we've done</h2>
+      <p>
+        We are a young initiative, and our work so far has been hands-on and local. To
+        date we have run two main workshops:
+      </p>
+      <ul>
+        <li><b>4S Ranch Community Library</b> — our first workshop.</li>
+        <li><b>UCSD Public Health Investigators camp</b> — our second workshop.</li>
+      </ul>
+
+      <h2>Get involved</h2>
+      <p>
+        As a growing organization, we are actively looking for new members and new ways to
+        expand. Feel free to contact us if you are interested in either of these options!
+      </p>
+      <div class="btn-row" style="justify-content:flex-start; margin-top:24px;">
+        <a class="btn btn-ink"
+           href="https://docs.google.com/forms/d/1N7XI1xkRVHiIwzjXMcv0URnnYA-TZPtJQOoQJX__TGY/viewform"
+           target="_blank" rel="noopener noreferrer">Volunteer</a>
+        <a class="btn btn-ink"
+           href="mailto:mll4all@gmail.com?subject=Workshop%20request">Request a workshop</a>
+      </div>
+
+      <div class="rule" aria-hidden="true" style="margin-top:44px;"><span>❦ ❦ ❦</span></div>
+
+      <div class="btn-row" style="justify-content:flex-start; margin-top:32px;">
+        <a class="btn btn-primary" href="why.html">See why we do it →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div>
+        <div class="brand"><span class="mark">Rx</span> Medical Literacy through Language</div>
+        <small>A non-profit health-literacy initiative.</small>
+      </div>
+      <div>
+        <small>
+          Any questions? Contact us!<br>
+          <a href="mailto:mll4all@gmail.com">mll4all@gmail.com</a><br>
+          © <span id="year"></span> Medical Literacy through Language
+        </small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>

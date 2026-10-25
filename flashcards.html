@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards &amp; Game — Medical Literacy through Language</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="mark">Rx</span><span>Medical Literacy through Language</span></a>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="who.html">Who</a>
+        <a href="what.html">What</a>
+        <a href="why.html">Why</a>
+        <a href="flashcards.html" class="active">Flashcards &amp; Game</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-head">
+    <div class="container">
+      <div class="eyebrow">Disce ludendo — Learn by playing</div>
+      <h1>Flashcards &amp; Game</h1>
+      <p class="muted" style="max-width:620px; margin:8px auto 0;">
+        Our brochure, brought to life. Flip cards to learn, then test yourself in
+        quiz mode. Filter by prefix, suffix, or root.
+      </p>
+    </div>
+  </div>
+
+  <section id="flash-app">
+    <div class="container">
+
+      <!-- Mode + filter controls -->
+      <div class="tool-bar">
+        <button id="mode-flash" class="chip active">🂠 Flashcards</button>
+        <button id="mode-quiz"  class="chip">🎯 Quiz</button>
+      </div>
+      <div class="tool-bar" id="filter-chips">
+        <span class="muted" style="font-size:0.85rem;">Show:</span>
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="prefix">Prefixes</button>
+        <button class="chip" data-filter="root">Roots</button>
+        <button class="chip" data-filter="suffix">Suffixes</button>
+      </div>
+
+      <!-- ===== Flashcard panel ===== -->
+      <div id="flash-panel">
+        <div class="flash-wrap">
+          <div class="flashcard" id="flashcard">
+            <div class="flashcard-inner">
+              <div class="flash-face flash-front">
+                <div class="flash-root" id="flash-root">cardi/o</div>
+                <div class="flash-origin" id="flash-origin">Greek · root</div>
+                <div class="flash-hint">Click / tap to reveal · ← → to navigate</div>
+              </div>
+              <div class="flash-face flash-back">
+                <div class="flash-meaning" id="flash-meaning">heart</div>
+                <div class="flash-example" id="flash-example"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flash-controls">
+            <button class="btn btn-ghost" id="flash-prev">‹ Prev</button>
+            <span class="flash-counter" id="flash-counter">1 / 1</span>
+            <button class="btn btn-ghost" id="flash-next">Next ›</button>
+            <button class="btn btn-primary" id="flash-shuffle">⤮ Shuffle</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== Quiz panel ===== -->
+      <div id="quiz-panel" class="hidden">
+        <div class="quiz-card card">
+          <div class="scoreboard" id="quiz-score">Score: 0</div>
+          <div class="best-score" id="quiz-best">Best: 0</div>
+          <div class="quiz-q" id="quiz-q">Loading…</div>
+          <div class="quiz-options" id="quiz-options"></div>
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+          <div class="flash-controls" style="margin-top:16px;">
+            <button class="btn btn-ghost" id="quiz-reset">↺ Reset</button>
+            <button class="btn btn-primary hidden" id="quiz-next">Next question ›</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Full reference table ===== -->
+  <section style="padding-top:0;">
+    <div class="container">
+      <h2 style="text-align:center;">The full root list</h2>
+      <p class="muted" style="text-align:center; max-width:620px; margin:0 auto 24px;">
+        Every card in one place. To add your brochure's terms, edit <code>roots.js</code>.
+      </p>
+      <div style="overflow-x:auto;">
+        <table class="term-table">
+          <thead>
+            <tr><th>Root</th><th>Meaning</th><th>Origin</th><th>Type</th><th>Example</th></tr>
+          </thead>
+          <tbody id="term-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div>
+        <div class="brand"><span class="mark">Rx</span> Medical Literacy through Language</div>
+        <small>A non-profit health-literacy initiative.</small>
+      </div>
+      <div>
+        <small>
+          Any questions? Contact us!<br>
+          <a href="mailto:mll4all@gmail.com">mll4all@gmail.com</a><br>
+          © <span id="year"></span> Medical Literacy through Language
+        </small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="roots.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

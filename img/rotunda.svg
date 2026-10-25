@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150"
+     preserveAspectRatio="xMidYMax slice" role="img"
+     aria-label="Silhouette of a domed rotunda with a columned portico and flanking colonnades">
+  <defs>
+    <linearGradient id="sky-why" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#fffdf8"/>
+      <stop offset="55%"  stop-color="#f4eee4"/>
+      <stop offset="100%" stop-color="#e9e0d3"/>
+    </linearGradient>
+    <radialGradient id="haze-why" cx="0.5" cy="0.85" r="0.62">
+      <stop offset="0%"   stop-color="#8c2f39" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#8c2f39" stop-opacity="0"/>
+    </radialGradient>
+
+    <g id="wcol">
+      <rect x="0" y="0" width="10" height="16" fill="#1f2a44" fill-opacity="0.24"/>
+    </g>
+  </defs>
+
+  <rect width="600" height="150" fill="url(#sky-why)"/>
+  <rect width="600" height="150" fill="url(#haze-why)"/>
+
+  <!-- flanking colonnade wings -->
+  <g>
+    <rect x="120" y="108" width="120" height="6" fill="#1f2a44" fill-opacity="0.26"/>
+    <use href="#wcol" x="128" y="114"/><use href="#wcol" x="152" y="114"/>
+    <use href="#wcol" x="176" y="114"/><use href="#wcol" x="200" y="114"/>
+    <use href="#wcol" x="224" y="114"/>
+
+    <rect x="360" y="108" width="120" height="6" fill="#1f2a44" fill-opacity="0.26"/>
+    <use href="#wcol" x="366" y="114"/><use href="#wcol" x="390" y="114"/>
+    <use href="#wcol" x="414" y="114"/><use href="#wcol" x="438" y="114"/>
+    <use href="#wcol" x="462" y="114"/>
+  </g>
+
+  <!-- dome + drum -->
+  <path d="M240,96 A60,60 0 0 1 360,96 Z" fill="#1f2a44" fill-opacity="0.28"/>
+  <path d="M262,44 A60,60 0 0 0 250,72" stroke="#f7f4ec" stroke-opacity="0.38" stroke-width="1.4" fill="none"/>
+  <path d="M300,36 A60,60 0 0 0 292,38" stroke="#f7f4ec" stroke-opacity="0.30" stroke-width="1.4" fill="none"/>
+  <circle cx="300" cy="66" r="6" fill="#f7f4ec" fill-opacity="0.42"/>
+  <rect x="240" y="96" width="120" height="34" fill="#1f2a44" fill-opacity="0.32"/>
+
+  <!-- portico -->
+  <polygon points="252,104 300,82 348,104" fill="#1f2a44" fill-opacity="0.30"/>
+  <rect x="248" y="104" width="104" height="7" fill="#1f2a44" fill-opacity="0.36"/>
+  <g fill="#1f2a44" fill-opacity="0.34">
+    <rect x="258"   y="111" width="14" height="19"/>
+    <rect x="281.3" y="111" width="14" height="19"/>
+    <rect x="304.7" y="111" width="14" height="19"/>
+    <rect x="328"   y="111" width="14" height="19"/>
+  </g>
+
+  <!-- steps -->
+  <rect x="110" y="130" width="380" height="4" fill="#1f2a44" fill-opacity="0.30"/>
+  <rect x="100" y="134" width="400" height="4" fill="#1f2a44" fill-opacity="0.26"/>
+
+  <rect x="0" y="138" width="600" height="12" fill="#1f2a44" fill-opacity="0.16"/>
+</svg>
