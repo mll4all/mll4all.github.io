@@ -13,6 +13,7 @@
     { href: "who.html",        label: "Who" },
     { href: "what.html",       label: "What" },
     { href: "why.html",        label: "Why" },
+    { href: "gallery.html",    label: "Gallery" },
     { href: "flashcards.html", label: "Flashcards &amp; Game" },
   ];
 

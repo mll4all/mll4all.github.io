@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Medical Literacy through Language</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+  <script src="header.js"></script>
+
+  <div class="page-head">
+    <div class="container">
+      <div class="eyebrow">Imagines — Pictures</div>
+      <h1>Gallery</h1>
+      <p class="muted" style="max-width:620px; margin:8px auto 0;">
+        Moments from the workshops we've run in our community. Click any photo to enlarge it.
+      </p>
+    </div>
+  </div>
+
+  <div class="rule" aria-hidden="true"><span>❦ ❦ ❦</span></div>
+
+  <section>
+    <div class="container">
+      <!-- Jump links, filled in by gallery.js -->
+      <div class="tool-bar" id="gallery-jump" aria-label="Jump to a workshop"></div>
+
+      <!-- Workshop sections, filled in by gallery.js -->
+      <div id="gallery-root"></div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox hidden" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lb-close" id="lb-close" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous photo">‹</button>
+    <figure class="lb-figure">
+      <img id="lb-img" alt="">
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="footer.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>
