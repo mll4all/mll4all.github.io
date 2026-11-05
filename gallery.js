@@ -15,7 +15,7 @@ const WORKSHOPS = [
     id: "workshop-1",
     title: "4S Ranch Community Library",
     meta: "Local Community workshop on August 15th, 2026",
-    
+    description: "16 students and parents attend the workshop. We walked them through Medical Decoder Guide",
     photos: [
       { src: "gallery/4S-Library-Workshop/4SLib-1.jpg", alt: "Workshop attendees at 4S Ranch Community Library", caption: "" },
       { src: "gallery/4S-Library-Workshop/4SLib-2.jpg", alt: "MLL volunteers presenting the Medical Decoder Guide", caption: "" },
@@ -28,7 +28,7 @@ const WORKSHOPS = [
     id: "workshop-2",
     title: "UCSD Public Health Investigators Camp",
     meta: "Ourworkshop during USCD YAC Public Health Investigators Camp on August 29th, 2026",
-    
+    description: "",
     photos: [
       { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-1.jpg", alt: "Students at the UCSD Public Health Investigators camp", caption: "" },
       { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-2.jpg", alt: "An MLL volunteer explaining Greek and Latin roots", caption: "" },
@@ -42,7 +42,7 @@ const WORKSHOPS = [
     id: "workshop-3",
     title: "Grace Academy Summer Camp",
     meta: "MLL Workshop At Grace Academy Summer Camp on July 6th, 2026",
-    
+    description: "",
     photos: [
       { src: "gallery/Grace-Academy-Summer-Camp/Grace-1.jpg", Grace-1alt: "Workshop 3 — describe this photo", caption: "" },
       { src: "gallery/Grace-Academy-Summer-Camp/Grace-2.jpg", alt: "Workshop 3 — describe this photo", caption: "" },
@@ -53,7 +53,7 @@ const WORKSHOPS = [
     id: "workshop-4",
     title: "Victory Bell Education and Research Center",
     meta: "MLL and AI Odysses Workshop at Victory Bell on August 22nd, 2026",
-   
+    description: "",
     photos: [
       { src: "gallery/AI-Odyssey-Workshop/AI-Odyssey.jpg", alt: "Workshop 4 — describe this photo", caption: "" }
     ]
