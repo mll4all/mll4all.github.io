@@ -14,14 +14,14 @@ const WORKSHOPS = [
   {
     id: "workshop-1",
     title: "4S Ranch Community Library",
-    meta: "Our first workshop · Date — edit me",
-    description: "Edit me: a sentence or two about who attended and what we covered.",
+    meta: "Our first workshop · August 2026",
+    description: "16 students and parents attend the workshop. We walked them through Medical Decoder Guide",
     photos: [
-      { src: "img/gallery/workshop-1/photo-1.jpg", alt: "Workshop attendees at 4S Ranch Community Library", caption: "" },
-      { src: "img/gallery/workshop-1/photo-2.jpg", alt: "MLL volunteers presenting the Medical Decoder Guide", caption: "" },
-      { src: "img/gallery/workshop-1/photo-3.jpg", alt: "Participants breaking a medical term into its roots", caption: "" },
-      { src: "img/gallery/workshop-1/photo-4.jpg", alt: "Participants working with the flashcards", caption: "" },
-      { src: "img/gallery/workshop-1/photo-5.jpg", alt: "The MLL team after the workshop", caption: "" }
+      { src: "gallery/4S-Library-Workshop/4SLib-1.jpg", alt: "Workshop attendees at 4S Ranch Community Library", caption: "" },
+      { src: "gallery/4S-Library-Workshop/4SLib-2.jpg", alt: "MLL volunteers presenting the Medical Decoder Guide", caption: "" },
+      { src: "gallery/4S-Library-Workshop/4SLib-3.jpg", alt: "Participants breaking a medical term into its roots", caption: "" },
+      { src: "gallery/4S-Library-Workshop/4SLib-4.jpg", alt: "Participants working with the flashcards", caption: "" },
+      { src: "gallery/4S-Library-Workshop/4SLib-5.jpg", alt: "The MLL team after the workshop", caption: "" }
     ]
   },
   {
