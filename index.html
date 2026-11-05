@@ -9,23 +9,8 @@
 </head>
 <body>
 
-  <!-- ============ NAV (same on every page) ============ -->
-  <nav class="nav">
-    <div class="container">
-      <a class="brand" href="index.html">
-        <span class="mark">Rx</span>
-        <span>Medical Literacy through Language</span>
-      </a>
-      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
-      <div class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="who.html">Who</a>
-        <a href="what.html">What</a>
-        <a href="why.html">Why</a>
-        <a href="flashcards.html">Flashcards &amp; Game</a>
-      </div>
-    </div>
-  </nav>
+  <!-- ============ NAV (shared: edit header.js) ============ -->
+  <script src="header.js"></script>
 
   <!-- ============ HERO ============ -->
   <header class="hero">
@@ -83,22 +68,8 @@
 
   <div class="rule" aria-hidden="true" style="margin-top:48px;"><span>❦ ❦ ❦</span></div>
 
-  <!-- ============ FOOTER (same on every page) ============ -->
-  <footer>
-    <div class="container">
-      <div>
-        <div class="brand"><span class="mark">Rx</span> Medical Literacy through Language</div>
-        <small>A non-profit health-literacy initiative.</small>
-      </div>
-      <div>
-        <small>
-          Any questions? Contact us!<br>
-          <a href="mailto:mll4all.sd@gmail.com">mll4all.sd@gmail.com</a><br>
-          © <span id="year"></span> Medical Literacy through Language
-        </small>
-      </div>
-    </div>
-  </footer>
+  <!-- ============ FOOTER (shared: edit footer.js) ============ -->
+  <script src="footer.js"></script>
 
   <script src="game.js"></script>
 </body>
