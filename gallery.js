@@ -30,12 +30,12 @@ const WORKSHOPS = [
     meta: "Ourworkshop during USCD YAC Public Health Investigators Camp on August 29th, 2026",
     description: "",
     photos: [
-      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-1.jpg", alt: "Students at the UCSD Public Health Investigators camp", caption: "" },
-      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-2.jpg", alt: "An MLL volunteer explaining Greek and Latin roots", caption: "" },
-      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-3.jpg", alt: "Students practicing medical term decoding", caption: "" },
-      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-4.jpg", alt: "Group photo from the camp workshop", caption: "" },
-      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-5.jpg", alt: "Group photo from the camp workshop", caption: "" },
-      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-6.jpg", alt: "Group photo from the camp workshop", caption: "" }
+      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-6.jpg", alt: "Students at the UCSD Public Health Investigators camp", caption: "" },
+      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-5.jpg", alt: "An MLL volunteer explaining Greek and Latin roots", caption: "" },
+      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-1.jpg", alt: "Students practicing medical term decoding", caption: "" },
+      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-2.jpg", alt: "Group photo from the camp workshop", caption: "" },
+      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-3.jpg", alt: "Group photo from the camp workshop", caption: "" },
+      { src: "gallery/UCSD-YAC-Public-Health-Workshop/UCSD-YAC-4.jpg", alt: "Group photo from the camp workshop", caption: "" }
     ]
   },
   {
