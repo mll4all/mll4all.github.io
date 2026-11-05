@@ -44,7 +44,7 @@ const WORKSHOPS = [
     meta: "MLL Workshop At Grace Academy Summer Camp on July 6th, 2026",
     description: "",
     photos: [
-      { src: "gallery/Grace-Academy-Summer-Camp/Grace-1.jpg", Grace-1alt: "Workshop 3 — describe this photo", caption: "" },
+      { src: "gallery/Grace-Academy-Summer-Camp/Grace-1.jpg", alt: "Workshop 3 — describe this photo", caption: "" },
       { src: "gallery/Grace-Academy-Summer-Camp/Grace-2.jpg", alt: "Workshop 3 — describe this photo", caption: "" },
       { src: "gallery/Grace-Academy-Summer-Camp/Grace-3.jpg", alt: "Workshop 3 — describe this photo", caption: "" }
     ]
