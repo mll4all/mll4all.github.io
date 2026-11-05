@@ -15,7 +15,7 @@ const WORKSHOPS = [
     id: "workshop-1",
     title: "4S Ranch Community Library",
     meta: "Local Community workshop on August 15th, 2026",
-    description: "16 students and parents attend the workshop. We walked them through Medical Decoder Guide",
+    description: "",
     photos: [
       { src: "gallery/4S-Library-Workshop/4SLib-1.jpg", alt: "Workshop attendees at 4S Ranch Community Library", caption: "" },
       { src: "gallery/4S-Library-Workshop/4SLib-2.jpg", alt: "MLL volunteers presenting the Medical Decoder Guide", caption: "" },
